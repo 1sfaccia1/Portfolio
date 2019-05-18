@@ -24,6 +24,7 @@ app.use('/about', indexRouter);
 app.use('/projects', indexRouter);
 app.use('/portfolio', indexRouter);
 app.use('/mailinglist', indexRouter);
+app.use('/signup', indexRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler

@@ -8,38 +8,52 @@
 	<form
 		id="form"
 		style="font-family:Quicksand, sans-serif;background-color:rgba(44,40,52,0.73);width:320px;padding:40px;"
+		action="/signup"
+		method="post"
 	>
 		<h1 id="head" style="color:rgb(193,166,83);">Login form</h1>
 		<div>
-			<img
+			<!-- <img
 				class="rounded img-fluid"
 				id="image"
 				style="width:auto;height:auto;"
 				src="/assets/img/logo.png?h=b756bfd8d0a72ad097b02bfd4ba2f5c3"
-			/>
+			/> -->
 		</div>
 
 		<div class="form-group">
 			<input
 				class="form-control"
-				type="email"
-				id="formum"
-				placeholder="Email"
+				type="text"
+				name="firstName"
+				id="formum, first_name"
+				placeholder="First Name"
 			/>
 		</div>
 		<div class="form-group">
 			<input
 				class="form-control"
-				type="password"
-				id="formum2"
-				placeholder="Password"
+				type="text"
+				name="lastName"
+				id="formum2, last_name"
+				placeholder="Last Name"
+			/>
+		</div>
+		<div class="form-group">
+			<input
+				class="form-control"
+				type="email"
+				id="formum2, email"
+				name="email"
+				placeholder="Your Email"
 			/>
 		</div>
 		<button
 			class="btn btn-light"
 			id="butonas"
+			name="button"
 			style="width:100%;height:100%;margin-bottom:10px;background-color:rgb(106,176,209);"
-			type="button"
+			type="submit"
 		>
 			Sign Up
 		</button>
