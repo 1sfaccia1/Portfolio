@@ -1,6 +1,56 @@
 <% include ../partials/header%>
 
-<h1><%= title %></h1>
-<p>Welcome to <%= title %></p>
+<!-- <h1><%= title %></h1>
+<p>Welcome to <%= title %></p> -->
+
+<section style="height: 100vh;">
+	<!-- Start: OcOrato - Login form -->
+	<form
+		id="form"
+		style="font-family:Quicksand, sans-serif;background-color:rgba(44,40,52,0.73);width:320px;padding:40px;"
+	>
+		<h1 id="head" style="color:rgb(193,166,83);">Login form</h1>
+		<div>
+			<img
+				class="rounded img-fluid"
+				id="image"
+				style="width:auto;height:auto;"
+				src="/assets/img/logo.png?h=b756bfd8d0a72ad097b02bfd4ba2f5c3"
+			/>
+		</div>
+
+		<div class="form-group">
+			<input
+				class="form-control"
+				type="email"
+				id="formum"
+				placeholder="Email"
+			/>
+		</div>
+		<div class="form-group">
+			<input
+				class="form-control"
+				type="password"
+				id="formum2"
+				placeholder="Password"
+			/>
+		</div>
+		<button
+			class="btn btn-light"
+			id="butonas"
+			style="width:100%;height:100%;margin-bottom:10px;background-color:rgb(106,176,209);"
+			type="button"
+		>
+			Sign Up
+		</button>
+		<a
+			id="linkas"
+			style="font-size:12px;margin:auto;margin-left:0;margin-right:0;margin-bottom:0;margin-top:0;padding-left:0;padding-right:0;color:rgb(177,151,70);"
+			href="#"
+			>Forgot your e mail or password?</a
+		>
+	</form>
+	<!-- End: OcOrato - Login form -->
+</section>
 
 <% include ../partials/footer %>

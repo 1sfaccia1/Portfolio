@@ -1,6 +1,155 @@
 <% include ../partials/header%>
 
-<h1><%= title %></h1>
-<p>Welcome to <%= title %></p>
+<!-- <h1><%= title %></h1>
+<p>Welcome to <%= title %></p> -->
+<!-- Start: best carousel slide -->
+<section id="carousel">
+	<!-- Start: Carousel Hero -->
+	<div class="carousel slide" data-ride="carousel" id="carousel-1">
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item">
+				<div
+					class="jumbotron pulse animated hero-nature carousel-hero"
+					style='background-image: url("/assets/img/desk.jpg?h=eb13a93b684e809ab05a72b772400000");'
+				>
+					<h1 class="hero-title">Hero Nature</h1>
+					<p class="hero-subtitle">
+						Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo
+						odio, dapibus ac facilisis in, egestas eget quam.
+					</p>
+					<p>
+						<a class="btn btn-primary hero-button plat" role="button" href="#"
+							>Learn more</a
+						>
+					</p>
+				</div>
+			</div>
+			<div class="carousel-item active">
+				<div
+					class="jumbotron pulse animated hero-photography carousel-hero"
+					style='background-image: url("/assets/img/code-1076533_1920.jpg?h=feca264fa490f59be36bacd30c71a6f9");background-color: rgba(0,0,0,0.4);background-position: center;'
+				>
+					<h1 class="hero-title">Hero Photography</h1>
+					<p class="hero-subtitle">
+						Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo
+						odio, dapibus ac facilisis in, egestas eget quam.
+					</p>
+					<p>
+						<a class="btn btn-primary hero-button plat" role="button" href="#"
+							>Learn more</a
+						>
+					</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div
+					class="jumbotron pulse animated hero-technology carousel-hero"
+					style='background-image: url("/assets/img/minneapolis-1920.png?h=8a4d2281d5a300c3f6f9360f8f5fb35f");'
+				>
+					<h1 class="hero-title">Hero Technology</h1>
+					<p class="hero-subtitle">
+						Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo
+						odio, dapibus ac facilisis in, egestas eget quam.
+					</p>
+					<p>
+						<button class="btn btn-primary hero-button plat" type="button">
+							Learn more
+						</button>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<a
+				class="carousel-control-prev"
+				href="#carousel-1"
+				role="button"
+				data-slide="prev"
+				><i class="fa fa-chevron-left"></i
+				><span class="sr-only">Previous</span></a
+			><a
+				class="carousel-control-next"
+				href="#carousel-1"
+				role="button"
+				data-slide="next"
+				><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a
+			>
+		</div>
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-1" data-slide-to="0"></li>
+			<li data-target="#carousel-1" data-slide-to="1" class="active"></li>
+			<li data-target="#carousel-1" data-slide-to="2"></li>
+		</ol>
+	</div>
+	<!-- End: Carousel Hero -->
+</section>
+<!-- End: best carousel slide -->
+<!-- Start: Features Blue -->
+<div class="features-blue" style="background-color: rgb(32,161,171);">
+	<div class="container">
+		<!-- Start: Intro -->
+		<div class="intro">
+			<h2 class="text-center">Features</h2>
+			<p class="text-center">
+				Nunc luctus in metus eget fringilla. Aliquam sed justo ligula.
+				Vestibulum nibh erat, pellentesque ut laoreet vitae.
+			</p>
+		</div>
+		<!-- End: Intro -->
+		<!-- Start: Features -->
+		<div class="row features">
+			<div class="col-sm-6 col-md-4 item">
+				<i class="fa fa-map-marker icon"></i>
+				<h3 class="name">Works everywhere</h3>
+				<p class="description">
+					Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
+					Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.
+				</p>
+			</div>
+			<div class="col-sm-6 col-md-4 item">
+				<i class="fa fa-clock-o icon"></i>
+				<h3 class="name">Always available</h3>
+				<p class="description">
+					Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
+					Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.
+				</p>
+			</div>
+			<div class="col-sm-6 col-md-4 item">
+				<i class="fa fa-list-alt icon"></i>
+				<h3 class="name">Customizable</h3>
+				<p class="description">
+					Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
+					Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.
+				</p>
+			</div>
+			<div class="col-sm-6 col-md-4 item">
+				<i class="fa fa-leaf icon"></i>
+				<h3 class="name">Organic</h3>
+				<p class="description">
+					Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
+					Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.
+				</p>
+			</div>
+			<div class="col-sm-6 col-md-4 item">
+				<i class="fa fa-plane icon"></i>
+				<h3 class="name">Fast</h3>
+				<p class="description">
+					Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
+					Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.
+				</p>
+			</div>
+			<div class="col-sm-6 col-md-4 item">
+				<i class="fa fa-phone icon"></i>
+				<h3 class="name">Mobile-first</h3>
+				<p class="description">
+					Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
+					Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.
+				</p>
+			</div>
+		</div>
+		<!-- End: Features -->
+	</div>
+</div>
+<!-- End: Features Blue -->
 
 <% include ../partials/footer %>
